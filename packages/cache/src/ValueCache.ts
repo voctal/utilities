@@ -58,6 +58,15 @@ export class ValueCache<T> {
     }
 
     /**
+     * Check if a value is present in the cache.
+     *
+     * @returns If there is a value or not
+     */
+    public has(): boolean {
+        return this._timer !== null;
+    }
+
+    /**
      * Get the value.
      */
     public get(): T | undefined {
