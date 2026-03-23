@@ -13,7 +13,8 @@ export interface ValueCacheOptions {
  *
  * @example
  * ```ts
- * const value = new ValueCache({ ttl: 10_000 }).set("some value");
+ * const value = new ValueCache({ ttl: 10_000 });
+ * value.set("some value");
  *
  * value.get(); // "some value"
  *
