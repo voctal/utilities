@@ -1,7 +1,7 @@
 {
     "$schema": "https://json.schemastore.org/package.json",
     "name": "@voctal/snowflake",
-    "version": "1.0.3",
+    "version": "1.1.0",
     "description": "Snowflake utility package",
     "keywords": [
         "id",
