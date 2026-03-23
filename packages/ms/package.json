@@ -26,13 +26,14 @@
     "files": [
         "dist"
     ],
+    "type": "module",
     "main": "./dist/index.js",
     "module": "./dist/index.mjs",
-    "types": "./dist/index.d.ts",
+    "types": "./dist/index.d.cts",
     "exports": {
         ".": {
             "require": {
-                "types": "./dist/index.d.ts",
+                "types": "./dist/index.d.cts",
                 "default": "./dist/index.js"
             },
             "import": {
@@ -42,7 +43,7 @@
         }
     },
     "scripts": {
-        "build": "tsup",
+        "build": "tsdown --config-loader unrun",
         "build:docs": "tsc -p tsconfig.docs.json",
         "lint": "tsc --noEmit && oxlint && oxfmt --check",
         "fmt": "oxfmt",
@@ -53,11 +54,11 @@
         "@voctal/duration": "workspace:^"
     },
     "devDependencies": {
-        "@microsoft/api-extractor": "^7.55.2",
-        "tsup": "^8.5.1",
+        "@microsoft/api-extractor": "^7.57.7",
+        "tsdown": "^0.21.4",
         "typescript": "^5.9.3"
     },
     "engines": {
-        "node": ">=18"
+        "node": ">=22"
     }
 }

@@ -18,7 +18,7 @@ By default, the following locales are supported: `en`, `fr`, `de`, `es`.
 
 ## Installation
 
-Node.js 18 or newer is required.
+Node.js 22 or newer is required.
 
 ```sh
 npm install @voctal/ms

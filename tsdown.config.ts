@@ -1,12 +1,11 @@
-import { defineConfig, Options } from "tsup";
+import { defineConfig, UserConfig } from "tsdown";
 
-export const createTsupConfig = (options?: Options) =>
+export const createTsdownConfig = (options?: UserConfig) =>
     defineConfig({
         entry: ["src/index.ts"],
-        format: ["cjs", "esm"],
+        format: ["esm", "cjs"],
         target: "es2022",
-        keepNames: true,
-        splitting: false,
+        treeshake: false,
         sourcemap: true,
         clean: true,
         dts: true,

@@ -14,7 +14,7 @@ Utility package to generate and deconstruct snowflakes. Snowflakes are unique ID
 
 ## Installation
 
-Node.js 18 or newer is required.
+Node.js 22 or newer is required.
 
 ```sh
 npm install @voctal/snowflake

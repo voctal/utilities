@@ -14,7 +14,7 @@ Time and duration utility package.
 
 ## Installation
 
-Node.js 18 or newer is required.
+Node.js 22 or newer is required.
 
 ```sh
 npm install @voctal/duration
