@@ -1,10 +1,10 @@
 <div align="center">
-    <h1>@sodiumlabs/cache</h1>
+    <h1>@voctal/cache</h1>
     <p>
-        <a href="https://discord.gg/8PDXWSHH7k"><img src="https://img.shields.io/badge/join_us-on_discord-5865F2?logo=discord&logoColor=white" alt="Discord server" /></a>
-        <a href="https://www.npmjs.com/package/@sodiumlabs/cache"><img src="https://img.shields.io/npm/v/@sodiumlabs/cache.svg?maxAge=3600" alt="npm version" /></a>
-        <a href="https://www.npmjs.com/package/@sodiumlabs/cache"><img src="https://img.shields.io/npm/dt/@sodiumlabs/cache.svg?maxAge=3600" alt="npm downloads" /></a>
-        <a href="https://github.com/sodium-labs/utilities/commits/main/packages/cache"><img alt="Last commit" src="https://img.shields.io/github/last-commit/sodium-labs/utilities?logo=github&logoColor=ffffff&path=packages%2Fcache" /></a>
+        <a href="https://voctal.dev/discord"><img src="https://img.shields.io/badge/join_us-on_discord-5865F2?logo=discord&logoColor=white" alt="Discord server" /></a>
+        <a href="https://www.npmjs.com/package/@voctal/cache"><img src="https://img.shields.io/npm/v/@voctal/cache.svg?maxAge=3600" alt="npm version" /></a>
+        <a href="https://www.npmjs.com/package/@voctal/cache"><img src="https://img.shields.io/npm/dt/@voctal/cache.svg?maxAge=3600" alt="npm downloads" /></a>
+        <a href="https://github.com/voctal/utilities/commits/main/packages/cache"><img alt="Last commit" src="https://img.shields.io/github/last-commit/voctal/utilities?logo=github&logoColor=ffffff&path=packages%2Fcache" /></a>
     </p>
 </div>
 
@@ -17,7 +17,7 @@ A lightweight and performant caching library providing simple TTL-based caches f
 Node.js 18 or newer is required.
 
 ```sh
-npm install @sodiumlabs/cache
+npm install @voctal/cache
 ```
 
 ## Usage
@@ -25,7 +25,7 @@ npm install @sodiumlabs/cache
 Cache
 
 ```ts
-import { Cache } from "@sodiumlabs/cache";
+import { Cache } from "@voctal/cache";
 
 // values are cached for 60s:
 const cache = new Cache({ ttl: 60_000 });
@@ -44,7 +44,7 @@ cache.has("some key"); // false
 ValueCache
 
 ```ts
-import { ValueCache } from "@sodiumlabs/cache";
+import { ValueCache } from "@voctal/cache";
 
 const value = new ValueCache({ ttl: 10_000 }).set("some value");
 
@@ -57,12 +57,12 @@ value.get(); // undefined
 
 ## Links
 
-- [Documentation](https://docs.sodiumlabs.xyz/docs/packages/cache/stable)
-- [Discord server](https://discord.gg/8PDXWSHH7k)
-- [GitHub](https://github.com/sodium-labs/utilities/tree/main/packages/cache)
-- [npm](https://npmjs.com/package/@sodiumlabs/cache)
-- [Sodium Labs](https://sodiumlabs.xyz)
+- [Documentation](https://docs.voctal.dev/docs/packages/cache/stable)
+- [Discord server](https://voctal.dev/discord)
+- [GitHub](https://github.com/voctal/utilities/tree/main/packages/cache)
+- [npm](https://npmjs.com/package/@voctal/cache)
+- [Voctal](https://voctal.dev)
 
 ## Help
 
-Need help with the module? Ask on our [support server!](https://discord.gg/8PDXWSHH7k)
+Need help with the module? Ask on our [support server!](https://voctal.dev/discord)

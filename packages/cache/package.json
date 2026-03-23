@@ -1,6 +1,6 @@
 {
     "$schema": "https://json.schemastore.org/package.json",
-    "name": "@sodiumlabs/cache",
+    "name": "@voctal/cache",
     "version": "1.0.0",
     "description": "Lightweight and performant caching utilities",
     "keywords": [
@@ -10,20 +10,19 @@
         "memoization",
         "memory",
         "node",
-        "sodium",
-        "sodiumlabs",
         "store",
-        "typescript"
+        "typescript",
+        "voctal"
     ],
-    "homepage": "https://github.com/sodium-labs/utilities/tree/main/packages/cache",
+    "homepage": "https://github.com/voctal/utilities/tree/main/packages/cache",
     "bugs": {
-        "url": "https://github.com/sodium-labs/utilities/issues"
+        "url": "https://github.com/voctal/utilities/issues"
     },
     "license": "MIT",
-    "author": "sodiumlabs",
+    "author": "voctal",
     "repository": {
         "type": "git",
-        "url": "git+https://github.com/sodium-labs/utilities.git",
+        "url": "git+https://github.com/voctal/utilities.git",
         "directory": "packages/cache"
     },
     "files": [

@@ -5,11 +5,11 @@
     "private": true,
     "description": "Useful TypeScript utilities",
     "bugs": {
-        "url": "https://github.com/sodium-labs/utilities/issues"
+        "url": "https://github.com/voctal/utilities/issues"
     },
     "repository": {
         "type": "git",
-        "url": "https://github.com/sodium-labs/utilities.git"
+        "url": "https://github.com/voctal/utilities.git"
     },
     "workspaces": [
         "packages/*"

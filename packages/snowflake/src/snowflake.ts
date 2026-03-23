@@ -1,8 +1,8 @@
-const IncrementSymbol = Symbol("@sodiumlabs/snowflake.increment");
-const EpochSymbol = Symbol("@sodiumlabs/snowflake.epoch");
-const EpochNumberSymbol = Symbol("@sodiumlabs/snowflake.epoch.number");
-const ProcessIdSymbol = Symbol("@sodiumlabs/snowflake.processId");
-const WorkerIdSymbol = Symbol("@sodiumlabs/snowflake.workerId");
+const IncrementSymbol = Symbol("@voctal/snowflake.increment");
+const EpochSymbol = Symbol("@voctal/snowflake.epoch");
+const EpochNumberSymbol = Symbol("@voctal/snowflake.epoch.number");
+const ProcessIdSymbol = Symbol("@voctal/snowflake.processId");
+const WorkerIdSymbol = Symbol("@voctal/snowflake.workerId");
 
 /**
  * The maximum value the `workerId` field accepts in snowflakes.

@@ -1,24 +1,23 @@
 {
     "$schema": "https://json.schemastore.org/package.json",
-    "name": "@sodiumlabs/duration",
+    "name": "@voctal/duration",
     "version": "1.0.2",
     "description": "Time and duration utility package",
     "keywords": [
         "duration",
-        "sodium",
-        "sodiumlabs",
         "time",
-        "typescript"
+        "typescript",
+        "voctal"
     ],
-    "homepage": "https://github.com/sodium-labs/utilities/tree/main/packages/duration",
+    "homepage": "https://github.com/voctal/utilities/tree/main/packages/duration",
     "bugs": {
-        "url": "https://github.com/sodium-labs/utilities/issues"
+        "url": "https://github.com/voctal/utilities/issues"
     },
     "license": "MIT",
-    "author": "sodiumlabs",
+    "author": "voctal",
     "repository": {
         "type": "git",
-        "url": "git+https://github.com/sodium-labs/utilities.git",
+        "url": "git+https://github.com/voctal/utilities.git",
         "directory": "packages/duration"
     },
     "files": [

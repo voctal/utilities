@@ -59,7 +59,7 @@ importers:
 
   packages/ms:
     dependencies:
-      '@sodiumlabs/duration':
+      '@voctal/duration':
         specifier: workspace:^
         version: link:../duration
     devDependencies:

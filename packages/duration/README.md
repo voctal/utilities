@@ -1,10 +1,10 @@
 <div align="center">
-    <h1>@sodiumlabs/duration</h1>
+    <h1>@voctal/duration</h1>
     <p>
-        <a href="https://discord.gg/8PDXWSHH7k"><img src="https://img.shields.io/badge/join_us-on_discord-5865F2?logo=discord&logoColor=white" alt="Discord server" /></a>
-        <a href="https://www.npmjs.com/package/@sodiumlabs/duration"><img src="https://img.shields.io/npm/v/@sodiumlabs/duration.svg?maxAge=3600" alt="npm version" /></a>
-        <a href="https://www.npmjs.com/package/@sodiumlabs/duration"><img src="https://img.shields.io/npm/dt/@sodiumlabs/duration.svg?maxAge=3600" alt="npm downloads" /></a>
-        <a href="https://github.com/sodium-labs/utilities/commits/main/packages/duration"><img alt="Last commit" src="https://img.shields.io/github/last-commit/sodium-labs/utilities?logo=github&logoColor=ffffff&path=packages%2Fduration" /></a>
+        <a href="https://voctal.dev/discord"><img src="https://img.shields.io/badge/join_us-on_discord-5865F2?logo=discord&logoColor=white" alt="Discord server" /></a>
+        <a href="https://www.npmjs.com/package/@voctal/duration"><img src="https://img.shields.io/npm/v/@voctal/duration.svg?maxAge=3600" alt="npm version" /></a>
+        <a href="https://www.npmjs.com/package/@voctal/duration"><img src="https://img.shields.io/npm/dt/@voctal/duration.svg?maxAge=3600" alt="npm downloads" /></a>
+        <a href="https://github.com/voctal/utilities/commits/main/packages/duration"><img alt="Last commit" src="https://img.shields.io/github/last-commit/voctal/utilities?logo=github&logoColor=ffffff&path=packages%2Fduration" /></a>
     </p>
 </div>
 
@@ -17,13 +17,13 @@ Time and duration utility package.
 Node.js 18 or newer is required.
 
 ```sh
-npm install @sodiumlabs/duration
+npm install @voctal/duration
 ```
 
 ## Usage
 
 ```ts
-import { Time } from "@sodiumlabs/duration";
+import { Time } from "@voctal/duration";
 
 setInterval(() => {
     console.log("Called every 2 hours!");
@@ -32,12 +32,12 @@ setInterval(() => {
 
 ## Links
 
-- [Documentation](https://docs.sodiumlabs.xyz/docs/packages/duration/stable)
-- [Discord server](https://discord.gg/8PDXWSHH7k)
-- [GitHub](https://github.com/sodium-labs/utilities/tree/main/packages/duration)
-- [npm](https://npmjs.com/package/@sodiumlabs/duration)
-- [Sodium Labs](https://sodiumlabs.xyz)
+- [Documentation](https://docs.voctal.dev/docs/packages/duration/stable)
+- [Discord server](https://voctal.dev/discord)
+- [GitHub](https://github.com/voctal/utilities/tree/main/packages/duration)
+- [npm](https://npmjs.com/package/@voctal/duration)
+- [Voctal](https://voctal.dev)
 
 ## Help
 
-Need help with the module? Ask on our [support server!](https://discord.gg/8PDXWSHH7k)
+Need help with the module? Ask on our [support server!](https://voctal.dev/discord)

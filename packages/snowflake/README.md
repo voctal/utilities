@@ -1,10 +1,10 @@
 <div align="center">
-    <h1>@sodiumlabs/snowflake</h1>
+    <h1>@voctal/snowflake</h1>
     <p>
-        <a href="https://discord.gg/8PDXWSHH7k"><img src="https://img.shields.io/badge/join_us-on_discord-5865F2?logo=discord&logoColor=white" alt="Discord server" /></a>
-        <a href="https://www.npmjs.com/package/@sodiumlabs/snowflake"><img src="https://img.shields.io/npm/v/@sodiumlabs/snowflake.svg?maxAge=3600" alt="npm version" /></a>
-        <a href="https://www.npmjs.com/package/@sodiumlabs/snowflake"><img src="https://img.shields.io/npm/dt/@sodiumlabs/snowflake.svg?maxAge=3600" alt="npm downloads" /></a>
-        <a href="https://github.com/sodium-labs/utilities/commits/main/packages/snowflake"><img alt="Last commit" src="https://img.shields.io/github/last-commit/sodium-labs/utilities?logo=github&logoColor=ffffff&path=packages%2Fsnowflake" /></a>
+        <a href="https://voctal.dev/discord"><img src="https://img.shields.io/badge/join_us-on_discord-5865F2?logo=discord&logoColor=white" alt="Discord server" /></a>
+        <a href="https://www.npmjs.com/package/@voctal/snowflake"><img src="https://img.shields.io/npm/v/@voctal/snowflake.svg?maxAge=3600" alt="npm version" /></a>
+        <a href="https://www.npmjs.com/package/@voctal/snowflake"><img src="https://img.shields.io/npm/dt/@voctal/snowflake.svg?maxAge=3600" alt="npm downloads" /></a>
+        <a href="https://github.com/voctal/utilities/commits/main/packages/snowflake"><img alt="Last commit" src="https://img.shields.io/github/last-commit/voctal/utilities?logo=github&logoColor=ffffff&path=packages%2Fsnowflake" /></a>
     </p>
 </div>
 
@@ -17,7 +17,7 @@ Utility package to generate and deconstruct snowflakes. Snowflakes are unique ID
 Node.js 18 or newer is required.
 
 ```sh
-npm install @sodiumlabs/snowflake
+npm install @voctal/snowflake
 ```
 
 ## Usage
@@ -25,7 +25,7 @@ npm install @sodiumlabs/snowflake
 Using snowflakes
 
 ```ts
-import { Snowflake } from "@sodiumlabs/snowflake";
+import { Snowflake } from "@voctal/snowflake";
 
 const epoch = new Date("2020-01-01T00:00:00.000Z");
 
@@ -39,7 +39,7 @@ const uniqueId = snowflake.generate();
 Snowflakes with Discord
 
 ```ts
-import { discordSnowflake } from "@sodiumlabs/snowflake";
+import { discordSnowflake } from "@voctal/snowflake";
 
 // Extract only the timestamp from a snowflake
 const timestamp = discordSnowflake.timestampFrom("716068012414730320");
@@ -59,15 +59,15 @@ const data = discordSnowflake.deconstruct("716068012414730320");
 
 ## Links
 
-- [Documentation](https://docs.sodiumlabs.xyz/docs/packages/snowflake/stable)
-- [Discord server](https://discord.gg/8PDXWSHH7k)
-- [GitHub](https://github.com/sodium-labs/utilities/tree/main/packages/snowflake)
-- [npm](https://npmjs.com/package/@sodiumlabs/snowflake)
-- [Sodium Labs](https://sodiumlabs.xyz)
+- [Documentation](https://docs.voctal.dev/docs/packages/snowflake/stable)
+- [Discord server](https://voctal.dev/discord)
+- [GitHub](https://github.com/voctal/utilities/tree/main/packages/snowflake)
+- [npm](https://npmjs.com/package/@voctal/snowflake)
+- [Voctal](https://voctal.dev)
 
 ## Help
 
-Need help with the module? Ask on our [support server!](https://discord.gg/8PDXWSHH7k)
+Need help with the module? Ask on our [support server!](https://voctal.dev/discord)
 
 ## Credits
 

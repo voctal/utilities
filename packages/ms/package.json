@@ -1,6 +1,6 @@
 {
     "$schema": "https://json.schemastore.org/package.json",
-    "name": "@sodiumlabs/ms",
+    "name": "@voctal/ms",
     "version": "1.0.1",
     "description": "Utility to convert various time formats to milliseconds",
     "keywords": [
@@ -8,20 +8,19 @@
         "localized",
         "ms",
         "parse",
-        "sodium",
-        "sodiumlabs",
         "time",
-        "typescript"
+        "typescript",
+        "voctal"
     ],
-    "homepage": "https://github.com/sodium-labs/utilities/tree/main/packages/ms",
+    "homepage": "https://github.com/voctal/utilities/tree/main/packages/ms",
     "bugs": {
-        "url": "https://github.com/sodium-labs/utilities/issues"
+        "url": "https://github.com/voctal/utilities/issues"
     },
     "license": "MIT",
-    "author": "sodiumlabs",
+    "author": "voctal",
     "repository": {
         "type": "git",
-        "url": "git+https://github.com/sodium-labs/utilities.git",
+        "url": "git+https://github.com/voctal/utilities.git",
         "directory": "packages/ms"
     },
     "files": [
@@ -51,7 +50,7 @@
         "docs": "npm run build:docs && api-extractor run --local"
     },
     "dependencies": {
-        "@sodiumlabs/duration": "workspace:^"
+        "@voctal/duration": "workspace:^"
     },
     "devDependencies": {
         "@microsoft/api-extractor": "^7.55.2",

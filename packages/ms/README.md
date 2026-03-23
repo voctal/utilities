@@ -1,10 +1,10 @@
 <div align="center">
-    <h1>@sodiumlabs/ms</h1>
+    <h1>@voctal/ms</h1>
     <p>
-        <a href="https://discord.gg/8PDXWSHH7k"><img src="https://img.shields.io/badge/join_us-on_discord-5865F2?logo=discord&logoColor=white" alt="Discord server" /></a>
-        <a href="https://www.npmjs.com/package/@sodiumlabs/ms"><img src="https://img.shields.io/npm/v/@sodiumlabs/ms.svg?maxAge=3600" alt="npm version" /></a>
-        <a href="https://www.npmjs.com/package/@sodiumlabs/ms"><img src="https://img.shields.io/npm/dt/@sodiumlabs/ms.svg?maxAge=3600" alt="npm downloads" /></a>
-        <a href="https://github.com/sodium-labs/utilities/commits/main/packages/ms"><img alt="Last commit" src="https://img.shields.io/github/last-commit/sodium-labs/utilities?logo=github&logoColor=ffffff&path=packages%2Fms" /></a>
+        <a href="https://voctal.dev/discord"><img src="https://img.shields.io/badge/join_us-on_discord-5865F2?logo=discord&logoColor=white" alt="Discord server" /></a>
+        <a href="https://www.npmjs.com/package/@voctal/ms"><img src="https://img.shields.io/npm/v/@voctal/ms.svg?maxAge=3600" alt="npm version" /></a>
+        <a href="https://www.npmjs.com/package/@voctal/ms"><img src="https://img.shields.io/npm/dt/@voctal/ms.svg?maxAge=3600" alt="npm downloads" /></a>
+        <a href="https://github.com/voctal/utilities/commits/main/packages/ms"><img alt="Last commit" src="https://img.shields.io/github/last-commit/voctal/utilities?logo=github&logoColor=ffffff&path=packages%2Fms" /></a>
     </p>
 </div>
 
@@ -12,7 +12,7 @@
 
 Use this package to easily convert various time formats to milliseconds.
 
-This package is an enhanced version of [vercel/ms](https://github.com/vercel/ms), with added localization support. With `@sodiumlabs/ms`, you can use multiple units at the same time (e.g. `ms("2h30m45s")`) and define localized units in any language you need.
+This package is an enhanced version of [vercel/ms](https://github.com/vercel/ms), with added localization support. With `@voctal/ms`, you can use multiple units at the same time (e.g. `ms("2h30m45s")`) and define localized units in any language you need.
 
 By default, the following locales are supported: `en`, `fr`, `de`, `es`.
 
@@ -21,7 +21,7 @@ By default, the following locales are supported: `en`, `fr`, `de`, `es`.
 Node.js 18 or newer is required.
 
 ```sh
-npm install @sodiumlabs/ms
+npm install @voctal/ms
 ```
 
 ## Usage
@@ -84,7 +84,7 @@ ms("2h", { locale: "fr", long: true }); // "2 heures"
 Add a locale
 
 ```ts
-import { setLocale } from "@sodiumlabs/ms";
+import { setLocale } from "@voctal/ms";
 
 // Add the `it` locale
 setLocale("it", {
@@ -116,12 +116,12 @@ setLocale("it", {
 
 ## Links
 
-- [Documentation](https://docs.sodiumlabs.xyz/docs/packages/ms/stable)
-- [Discord server](https://discord.gg/8PDXWSHH7k)
-- [GitHub](https://github.com/sodium-labs/utilities/tree/main/packages/ms)
-- [npm](https://npmjs.com/package/@sodiumlabs/ms)
-- [Sodium Labs](https://sodiumlabs.xyz)
+- [Documentation](https://docs.voctal.dev/docs/packages/ms/stable)
+- [Discord server](https://voctal.dev/discord)
+- [GitHub](https://github.com/voctal/utilities/tree/main/packages/ms)
+- [npm](https://npmjs.com/package/@voctal/ms)
+- [Voctal](https://voctal.dev)
 
 ## Help
 
-Need help with the module? Ask on our [support server!](https://discord.gg/8PDXWSHH7k)
+Need help with the module? Ask on our [support server!](https://voctal.dev/discord)

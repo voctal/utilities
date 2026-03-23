@@ -1,4 +1,4 @@
-import { Time } from "@sodiumlabs/duration";
+import { Time } from "@voctal/duration";
 
 /**
  * The available time units.
