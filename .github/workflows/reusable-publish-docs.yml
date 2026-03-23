@@ -57,7 +57,7 @@ jobs:
             - name: Checkout artifacts repo
               uses: actions/checkout@v6
               with:
-                  repository: sodium-labs/artifacts
+                  repository: voctal/artifacts
                   ref: main
                   token: ${{ secrets.ARTIFACTS_TOKEN }}
                   path: artifacts
@@ -66,11 +66,10 @@ jobs:
               run: |
                   TARGET="artifacts/docs/packages/${{ inputs.package-name }}/${{ steps.pkg.outputs.version }}"
                   mkdir -p "$TARGET"
-
                   cp "${{ inputs.working-directory }}/README.md" "$TARGET/"
                   cp "${{ inputs.working-directory }}/dist-docs/docs.api.json" "$TARGET/"
 
-            - name: Commit and push docs
+            - name: Commit and push
               run: |
                   cd artifacts
                   git config --local user.name "github-actions[bot]"
