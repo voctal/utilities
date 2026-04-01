@@ -14,7 +14,7 @@ A lightweight and performant caching library providing simple TTL-based caches f
 
 ## Installation
 
-Node.js 18 or newer is required.
+Node.js 22 or newer is required.
 
 ```sh
 npm install @voctal/cache
